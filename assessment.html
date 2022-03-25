@@ -2,9 +2,121 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Rahil's HTML Assessment</title>
   </head>
   <body>
+
+    <h2>TEXT</h2>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor magna eget est lorem ipsum dolor sit amet. Convallis aenean et tortor at risus viverra adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. In mollis nunc sed id semper risus in hendrerit. Lectus quam id leo in vitae turpis. Adipiscing tristique risus nec feugiat in fermentum. Turpis egestas integer eget aliquet nibh praesent. Nunc sed id semper risus. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Justo laoreet sit amet cursus sit amet dictum sit amet. Ut enim blandit volutpat maecenas. Lacinia at quis risus sed vulputate odio ut. Duis at consectetur lorem donec massa sapien faucibus. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.</p>
+    <blockquote cite="http://">
+      <p><strong>Orci</strong> varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a interdum nibh. Quisque auctor lorem ut erat rutrum, ac varius velit faucibus. Curabitur bibendum urna sit amet interdum tristique. Vestibulum ac lectus a ipsum dictum dictum vel vel justo. Sed pretium nunc dictum consectetur commodo. Fusce sit amet augue urna. Vivamus in purus ipsum. Vestibulum congue tristique nunc ultricies rhoncus. Donec sed ex vehicula, euismod libero ac, volutpat sapien. Praesent ac nunc eu nisl tincidunt mattis.</p>
+    </blockquote>
+    <p><strong>Morbi</strong> sagittis lobortis nulla, eu pretium justo vestibulum in. Nullam rhoncus nibh a mauris consectetur vulputate. Sed bibendum nibh vel dolor finibus venenatis. Donec commodo tincidunt sapien, non ultricies diam gravida ac. Aliquam placerat sem ac feugiat volutpat. Nullam ornare, turpis quis fermentum mollis, elit enim fringilla metus, sed elementum leo massa a velit. Aliquam erat volutpat. Fusce lacinia viverra rhoncus. Duis ullamcorper lobortis neque, non lacinia orci euismod eu. Cras id elit dictum, pretium quam id, semper sapien. Curabitur et enim vitae nunc mollis molestie at sit amet augue. </p>
+
+    <h2>TABLE</h2>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Team Name</th>
+          <th colspan="2">First Half</th>
+          <th colspan="2">Second Half</th>
+          <th rowspan="2">Final</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th></th>
+          <th>Q1</th>
+          <th>Q2</th>
+          <th>Q3</th>
+          <th>Q4</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Denver</td>
+          <td>10</td>
+          <td>3</td>
+          <td>3</td>
+          <td>8</td>
+          <td><strong>24</strong></td>
+        </tr>
+        <tr>
+          <td>Carolina</td>
+          <td>0</td>
+          <td>7</td>
+          <td>0</td>
+          <td>3</td>
+          <td><strong>10</strong></td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td><strong>10</strong></td>
+          <td><strong>10</strong></td>
+          <td><strong>3</strong></td>
+          <td><strong>11</strong></td>
+          <td><strong>34</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>LIST</h2>
+    <ul>
+      <li><img height="50" width="100" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/1024px-Denver_Broncos_logo.svg.png" alt="Denver Broncos Logo"><br><a href="https://www.denverbroncos.com/" target="_blank">Denver Broncos</a></li>
+      <ul>
+        <li>Coach: Gary Kubiak</li>
+        <li>QB: Peyton Manning</li>
+        <li>End of Season Record: 12-4</li>
+      </ul>
+    </ul>
+    <ul>
+      <li><img height="50" width="100" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Carolina_Panthers_logo.svg/1024px-Carolina_Panthers_logo.svg.png" alt="Carolina Panthers Logo"><br><a href="https://www.panthers.com/" target="_blank">Carolina Panthers</a></li>
+      <ul>
+        <li>Coach: Ron Rivera</li>
+        <li>QB: Cam Newton</li>
+        <li>End of Season Record: 15-1</li>
+      </ul>
+    </ul>
+
+    <h2>FORM</h2>
+    <form action="assessment.html">
+      <input type="text" name="firstname" placeholder="First Name">
+      <input type="text" name="lastname" placeholder="Last Name">
+
+    <p>Favorite Sport:</p>
+
+      <select name="dropdownmenu">
+        <option>Football</option>
+        <option>Soccer</option>
+        <option>Baseball</option>
+        <option>Basketball</option>
+        <option>Softball</option>
+      </select>
+
+      <br>
+
+      I have <input type="checkbox" name="played">
+        <label>Played</label>
+      <input type="checkbox" name="attended">
+        <label>Attended</label>
+      <input type="checkbox" name="coached">
+        <label>Coached</label>
+      <input type="checkbox" name="bet">
+        <label>Bet on this sport.</label>
+
+      <br>
+
+      For this sport I prefer the: <input type="radio" name="amateur">
+          <label>Amateur</label>
+        <input type="radio" name="college">
+          <label>College</label>
+        <input type="radio" name="professional">
+          <label>Professional</label>
+
+      <br>
+
+      <input type="submit" name="submit">
+
+    </form>
 
   </body>
 </html>
