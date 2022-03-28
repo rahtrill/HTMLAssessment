@@ -12,7 +12,7 @@ HTML is very straight forward. What you are building in your code is what is usu
 
 I also had a little bit of difficulty at first with nesting certain tags. I would sometimes nest them backwards and it would cause problems with the code.
 
-For example, I tried putting a <p> (paragraph) tag around a blockquote tag, but it did not work. I then tried to put the paragraph tag inside of the blockquote tag, and it worked. After thinking about it, it made sense that a blockquote would need the paragraph tag nested inside of it, but at the time, it was somewhat confusing.
+For example, I tried putting a p (paragraph) tag around a blockquote tag, but it did not work. I then tried to put the paragraph tag inside of the blockquote tag, and it worked. After thinking about it, it made sense that a blockquote would need the paragraph tag nested inside of it, but at the time, it was somewhat confusing.
 
 Here's an example of what I originally tried to do:
 
